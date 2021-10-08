@@ -9,7 +9,7 @@ const slice = createSlice({
     },
 
     reducers: {
-        rocketsRequested: (rockets, action) => {
+        rocketsRequested: (rockets) => {
             rockets.loading = true;
         },
 
@@ -18,7 +18,7 @@ const slice = createSlice({
             rockets.loading = false;
         },
 
-        rocketsRequestFailed: (rockets, action) => {
+        rocketsRequestFailed: (rockets) => {
             rockets.loading = false;
         },
     },
