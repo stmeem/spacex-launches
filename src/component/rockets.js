@@ -13,7 +13,6 @@ const Rockets = () => {
 
   return (
     <div>
-      <h1>SPACEX Launches</h1>
       <ul>
         {rockets.map((rocket) => (
           <li key={rocket.id}>
