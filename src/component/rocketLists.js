@@ -19,8 +19,8 @@ const RocketLists = () => {
               <img className="w-full md:w-40 h-auto mb-5" src={props.img} alt="" />
                 <li className="">Flight Number: {props.flight_number}</li>
                 <li className="">Mission Name: {props.mission_name} m.</li>
-                <li className="">Launch Year: {props.launch_year} m.</li>
-                <li className="">Rocket Name: {props.rocket_name} m.</li>
+                <li className="">Launch Year: {props.launch_year} </li>
+                <li className="">Rocket Name: {props.rocket_name} </li>
               </ul>
               </div>
           </article>
