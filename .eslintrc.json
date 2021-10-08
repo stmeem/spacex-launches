@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 {
     "env": {
         "browser": true,
@@ -19,6 +20,7 @@
         "react"
     ],
     "rules": {
-        "react/react-in-jsx-scope": "off"
+        "react/react-in-jsx-scope": "off",
+        "react/prop-types": 0
     }
 }
