@@ -4,6 +4,8 @@ import configureStore from './store/configureStore';
 import RocketLists from './component/rocketLists';
 import {Header} from './component/header';
 import {Home} from './component/home';
+import {Footer} from './component/footer';
+
 const store = configureStore();
 const App = () => {
   return (
@@ -11,6 +13,7 @@ const App = () => {
       <Header/>
       <Home/>
       <RocketLists/>
+      <Footer/>
     </Provider>
   );
 };
