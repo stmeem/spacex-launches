@@ -21,6 +21,8 @@ const RocketLists = () => {
                 <li className="">Mission Name: {props.mission_name} m.</li>
                 <li className="">Launch Year: {props.launch_year} </li>
                 <li className="">Rocket Name: {props.rocket_name} </li>
+                <li className="">Rocket Type: {props.rocket_type} </li>
+                <li className="">Upcoming Status: {props.upcoming? "True":"False"} </li>
               </ul>
               </div>
           </article>
@@ -38,6 +40,8 @@ const RocketLists = () => {
             img={rocket.links.mission_patch_small}
             launch_year={rocket.launch_year}
             rocket_name={rocket.rocket.rocket_name}
+            rocket_type={rocket.rocket.rocket_type}
+            upcoming={rocket.upcoming}
             />
           )
 
