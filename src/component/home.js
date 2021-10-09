@@ -17,13 +17,12 @@ export const Home = () => {
                 California. It was founded in 2002 by entrepreneur Elon Musk,
                 who is the current Chief Executive Officer and Chief Technology
                 Officer. 
-                
               </p>
             </section>
           </main>
         </div>
         <div className="w-full md:w-1/2">
-          <img src={img} alt="Monitoring" />
+          <img src={img} alt="monitoring" />
         </div>
       </div>
     </div>
