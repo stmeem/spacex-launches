@@ -1,29 +1,30 @@
-# Tailwind CSS + Create React App 
+# SpaceX Launches 
 
-Starter boilerplate for React JS and Tailwind CSS. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React web application which shows all launches using SpaceX API.
 
-## About
+## Demo
+Try out the demo [here](https://spacex-launches-eta.vercel.app) 
 
-React is a JavaScript library created for building fast and interactive user interfaces for web and mobile applications. It is an open-source, component-based, front-end library responsible only for the application’s view layer. 
+## Dependencies
+- @craco/craco: `^6.1.2`
+- @reduxjs/toolkit: `^1.6.2`
+- @testing-library/jest-dom: `^5.14.1`
+- @testing-library/react: `^11.2.7`
+- @testing-library/user-event: `^12.8.3`
+- axios: `^0.22.0`
+- react: `^17.0.2`
+- react-dom: `^17.0.2`
+- react-redux: `^7.2.5`
+- react-scripts: `4.0.3`
+- redux: `^4.1.1`
 
-Tailwind CSS is a "utility-first" CSS framework that provides a deep catalog of CSS classes and tools that lets you easily get started styling your website or application.
-
-This starter boilerplate has all the configurations for the installation process of Tailwind which will save your time. Use this boilerplate to complete your projects quickly.
-
-## Current Version
-- React - 17.0.2
-- Tailwind CSS - 2.1.4
-
-## Quick Start
+## Installation
 - Clone or download this repository.
 - Switch into the directory. 
 - Install dependencies `npm i`.
 - Run `npm start`.
 
-## Learn More
+To view the project open [http://localhost:3000](http://localhost:3000).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-To learn Tailwind CSS, check out the [Tailwind CSS documentation](https://tailwindcss.com/). 
+## Deployment
+The easiest way to deploy React.js to production is to use the [Vercel](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) platform from the creators of Next.js. Vercel is a cloud platform for static sites, hybrid apps, and Serverless Functions.
