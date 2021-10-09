@@ -31,7 +31,7 @@ const RocketLists = () => {
   }
   return (
     <div>
-      <h1 className="mt-6  p-5 font-bold text-2xl text-center text-blue-400">Explore Launches</h1>
+      <h1 className="mt-6  p-5 font-bold text-2xl text-center text-blue-400">Explore SpaceX Launches</h1>
         {rocket.map((rocket) => {
           return(
             <Rockets key={rocket.id}
