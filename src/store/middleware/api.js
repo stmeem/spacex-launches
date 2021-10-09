@@ -16,7 +16,7 @@ const api =
 
         try {
             const response = await axios.request({
-                baseURL: "https://api.spacexdata.com/v3/launches?limit=5",
+                baseURL: "https://api.spacexdata.com/v3/launches?limit=20",
                 url,
                 method,
                 data,
